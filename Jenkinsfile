@@ -36,7 +36,7 @@ pipeline {
                    }
                }
                steps {
-                   sh 'p/root/.pyenv/shims/pyinstaller --onefile sources/add2vals.py' //3
+                   sh '/root/.pyenv/shims/pyinstaller --onefile sources/add2vals.py' //3
                }
                post {
                    success {
